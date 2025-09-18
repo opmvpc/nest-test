@@ -8,5 +8,5 @@
       "includeFiles": "backend/dist/**"
     }
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "/api/index.js" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/backend/api/index.js" }]
 }
