@@ -1,7 +1,7 @@
-const { NestFactory } = require('@nestjs/core');
-const { AppModule } = require('../dist/app.module');
-const { ExpressAdapter } = require('@nestjs/platform-express');
 import express from 'express';
+import { NestFactory } from '@nestjs/core';
+import { ExpressAdapter } from '@nestjs/platform-express';
+import { AppModule } from './app.module';
 
 const server = express();
 

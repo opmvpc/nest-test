@@ -1,13 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "version": 2,
-  "installCommand": "cd backend && npm install",
-  "buildCommand": "cd backend && npm run build && ls",
-  "functions": {
-    "backend/api/index.js": {
-      "includeFiles": "backend/dist/**"
-    }
-  },
-  "outputDirectory": ".",
-  "rewrites": [{ "source": "/(.*)", "destination": "backend/api/index.js" }]
+  "version": 2
 }
