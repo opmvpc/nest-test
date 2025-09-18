@@ -7,6 +7,5 @@
     "backend/api/index.js": {
       "includeFiles": "backend/dist/**"
     }
-  },
-  "routes": [{ "src": "/(.*)", "dest": "/backend/api/index.js" }]
+  }
 }
