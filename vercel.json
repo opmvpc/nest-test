@@ -5,9 +5,8 @@
   "buildCommand": "cd backend && npm run build",
   "functions": {
     "api/index.js": {
-      "memory": 1024
+      "includeFiles": "backend/dist/**"
     }
   },
-  "outputDirectory": "backend/dist",
   "rewrites": [{ "source": "/(.*)", "destination": "/api/index.js" }]
 }
